@@ -1,0 +1,105 @@
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  /* Hero Section */
+  .hero-content {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+    padding: 0 1rem !important;
+  }
+
+  /* About Section */
+  .about-content {
+    grid-template-columns: 1fr !important;
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Veterinarians */
+  .vet-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Services */
+  .service-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .cta-section {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Reviews */
+  .review-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .stats-section {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Gallery */
+  .gallery {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Contact */
+  .content-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .footer-bottom {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  /* Typography adjustments */
+  .heading-1 {
+    font-size: 2.25rem !important;
+    line-height: 1.1 !important;
+  }
+
+  .heading-2 {
+    font-size: 1.875rem !important;
+  }
+
+  .heading-3 {
+    font-size: 1.25rem !important;
+  }
+
+  /* Button adjustments */
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Card padding */
+  .card,
+  .product-card,
+  .vet-card,
+  .service-card {
+    padding: 1.5rem !important;
+  }
+}
+
+/* Tablet responsive styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-content,
+  .about-content,
+  .vet-grid,
+  .service-grid,
+  .content-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
