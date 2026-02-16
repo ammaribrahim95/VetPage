@@ -24,7 +24,7 @@ const Header = () => {
     <header style={styles.header}>
       <div style={styles.container}>
         <div style={styles.logo}>
-          <span style={styles.logoText}>KLINIK HAIWAN TTDI VET</span>
+          <span style={styles.logoText}>KLINIK HAIWAN</span>
         </div>
 
         {/* Desktop Navigation */}
@@ -68,7 +68,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="tel:+60106691139"
+          href="tel:+60127953577"
           style={
             isMobile
               ? { ...styles.phoneButton, display: "none" }
