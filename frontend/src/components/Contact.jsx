@@ -72,7 +72,7 @@ ${petName ? `*Pet Name:* ${petName}` : ""}
 *Pet Type:* ${petType}
 ${petAge ? `*Pet Age:* ${petAge}` : ""}
 *Visit Type:* ${visitType}
-${preferredDate ? `*Preferred Date:* ${preferredDate}` : ""
+${preferredDate ? `*Preferred Date:* ${preferredDate}` : ""}
 ${preferredTime ? `*Preferred Time:* ${preferredTime}` : ""}
 ${additionalNotes ? `*Additional Notes:* ${additionalNotes}` : ""}
 
