@@ -64,7 +64,7 @@ const Reviews = () => {
             What Our Clients Say
           </h2>
           <p className="body-large" style={styles.sectionSubtitle}>
-            Trusted by pet owners across TTDI and Kuala Lumpur
+            Trusted by pet owners across Damansara Perdana and Petaling Jaya
           </p>
         </div>
 

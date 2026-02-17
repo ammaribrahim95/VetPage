@@ -65,14 +65,14 @@ const Contact = () => {
       return;
     }
 
-    const message = `Hello! I would like to book an appointment at Klinik Haiwan TTDI Vet.
+    const message = `Hello! I would like to book an appointment at Klinik Haiwan.
 
 *Owner Name:* ${ownerName}
 ${petName ? `*Pet Name:* ${petName}` : ""}
 *Pet Type:* ${petType}
 ${petAge ? `*Pet Age:* ${petAge}` : ""}
 *Visit Type:* ${visitType}
-${preferredDate ? `*Preferred Date:* ${preferredDate}` : ""}
+${preferredDate ? `*Preferred Date:* ${preferredDate}` : ""
 ${preferredTime ? `*Preferred Time:* ${preferredTime}` : ""}
 ${additionalNotes ? `*Additional Notes:* ${additionalNotes}` : ""}
 

@@ -10,7 +10,7 @@ const Footer = () => {
         <div style={styles.grid}>
           {/* Clinic Info */}
           <div style={styles.column}>
-            <h3 style={styles.clinicName}>KLINIK HAIWAN TTDI VET</h3>
+            <h3 style={styles.clinicName}>KLINIK HAIWAN</h3>
             <p style={styles.tagline}>
               Gentle Care. Professional Treatment. Pets First.
             </p>
@@ -103,7 +103,7 @@ const Footer = () => {
 
         <div style={styles.bottom}>
           <p style={styles.copyright}>
-            © {currentYear} Klinik Haiwan TTDI Vet. All rights reserved.
+            © {currentYear} Klinik Haiwan. All rights reserved.
           </p>
           <p style={styles.taglineSmall}>
             Made with{" "}

@@ -31,7 +31,7 @@ const About = () => {
         <div style={styles.header}>
           <h2 className="heading-2" style={styles.sectionTitle}>About Our Clinic</h2>
           <p className="body-large" style={styles.sectionSubtitle}>
-            A trusted veterinary clinic in TTDI, committed to exceptional pet care
+            A trusted veterinary clinic in Damansara Perdana, committed to exceptional pet care
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const About = () => {
               Your Pet's Health is Our Priority
             </h3>
             <p className="body-medium" style={styles.aboutParagraph}>
-              At Klinik Haiwan TTDI Vet, we understand that your pets are part of your family. Our clinic is run by dedicated veterinarians who truly care about animal wellbeing, providing compassionate care with a gentle touch.
+              At Klinik Haiwan, we understand that your pets are part of your family. Our clinic is run by dedicated veterinarians who truly care about animal wellbeing, providing compassionate care with a gentle touch.
             </p>
             <p className="body-medium" style={styles.aboutParagraph}>
               We pride ourselves on accurate diagnosis, modern treatment approaches, and personalized care for every pet. From routine check-ups to specialized treatments, we're here to ensure your furry friends live their healthiest, happiest lives.

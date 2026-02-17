@@ -44,7 +44,7 @@ const Hero = () => {
       <div style={styles.content}>
         <div style={styles.textContent}>
           <h1 className="heading-1" style={styles.title}>
-            KLINIK HAIWAN TTDI VET
+            KLINIK HAIWAN
           </h1>
           <p className="body-large" style={styles.subtitle}>
             Gentle Care. Professional Treatment. Pets First.
